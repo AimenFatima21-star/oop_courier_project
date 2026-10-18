@@ -107,3 +107,38 @@ Three convictions underpin this project:
 ---
 
 ## Repository Structure
+oop_courier_project/
+├── include/
+│ └── courier/ # Public headers for domain classes
+│ ├── Customer.h
+│ ├── Employee.h
+│ ├── Courier.h
+│ ├── Dispatcher.h
+│ ├── Vehicle.h
+│ ├── Shipment.h
+│ ├── Delivery.h
+│ └── Address.h
+├── src/
+│ ├── main.cpp # Application entry point
+│ └── models/ # Implementation of domain classes
+├── tests/ # Unit tests
+├── CMakeLists.txt # Build configuration
+└── README.md
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- A C++17-compliant compiler (GCC 9+, Clang 10+, or MSVC 2019+)
+- CMake 3.15 or later
+- `make` (Linux/macOS) or Visual Studio (Windows)
+
+### Installation
+
+**Step 1 — Clone the repository**
+
+```bash
+git clone https://github.com/<your-org>/oop_courier_project.git
+cd oop_courier_project
